@@ -1,0 +1,307 @@
+akte================================================================
+ARIS - ULTIMATE AI ASSISTANT COMMAND LIST
+================================================================
+
+Here is a complete list of features and commands you can use with ARIS.
+
+[NEW FEATURES]
+1. 🌐 Situational Awareness: Real-time system monitoring, alerts, and context tracking (JARVIS-style).
+2. 🤖 Self-Improvement Engine: ARIS learns from your corrections and gets smarter over time.
+3. 📧 Email Automation: Send custom emails, files, and get startup alerts.
+4. 📊 YouTube Analytics: Check channel stats, views, and latest video performance.
+5. 📂 Advanced File Manager: Create new files and manage folders.
+6. 👁️ Vision Mode: Analyze screen content and camera feed intelligently.
+7. 📝 PDF Automation: Convert selected images to PDF instantly.
+[/NEW FEATURES]
+
+[ADVANCED FEATURES]
+1. 🌐 Situational Awareness: Always-on monitoring like JARVIS.
+2. 🤖 Self-Improvement: ARIS learns from your corrections.
+3. 👁️ Vision Mode: Screen analysis & Question Answering.
+4. 📷 Camera Vision: Real-time webcam analysis.
+5. 📧 Email Automation: Send emails & files via voice.
+6. 📊 YouTube Analytics: Channel stats & video performance.
+7. 📥 YouTube Downloader: Download videos instantly.
+8. 💻 Coding Mode: Generate & run Python/HTML code.
+9. 🎨 Image Generation: Create AI images from text.
+10. 📄 PDF Automation: Convert selected images to PDF.
+11. 📂 Advanced File Manager: Create & Manage files.
+12. 🧠 Memory System: Remembers your personal details.
+[/ADVANCED FEATURES]
+
+----------------------------------------------------------------
+1. SYSTEM & HARDWARE CONTROL
+----------------------------------------------------------------
+• System Power:
+  - "Shutdown system"
+  - "Restart computer"
+  - "Sleep mode me jao"
+  - "System lock karo"
+  - "Cancel" (To stop a pending shutdown/restart)
+
+• System Health & Stats:
+  - "System health batao" (CPU, RAM, Battery status)
+  - "System uptime kya hai" (Kitni der se on hai)
+  - "Running processes list karo"
+  - "Kill process chrome" (Specific app band karne ke liye)
+  - "Mera IP address kya hai" / "What is my IP"
+
+• Connectivity & Maintenance:
+  - "Restart file explorer" (Agar taskbar/desktop hang ho)
+  - "Recycle bin empty karo"
+  - "Temp files clean karo"
+  - "Internet speed check karo"
+
+• Settings & Power Plans:
+  - "Open bluetooth settings"
+  - "Open apps settings" / "Uninstall a program"
+
+• Brightness & Volume:
+  - "Brightness 50% kar do"
+  - "Brightness badhao" / "Brightness kam karo"
+  - "Volume up" / "Volume down"
+  - "Mute volume" / "Unmute"
+
+• Exit:
+  - "Exit ARIS" / "Quit" (5-second countdown start hoga)
+  - "Exit cancel" (Agar galti se bol diya ho)
+
+----------------------------------------------------------------
+2. DESKTOP & WINDOW MANAGEMENT
+----------------------------------------------------------------
+• App & Window Control:
+  - "Chrome open karo" / "Open Notepad"
+  - "Close this window" / "Notepad band karo"
+  - "Switch to VS Code" / "Focus on Chrome"
+  - "Save this file" (Active window me Ctrl+S karega)
+  - "New window open karo" (File explorer)
+
+• Browser Tabs:
+  - "Close this tab" (Current tab)
+  - "Close YouTube tab" (Specific tab band karne ke liye)
+  - "Close WhatsApp tab"
+
+• Desktop Customization:
+  - "Change wallpaper" / "New wallpaper"
+  - "Dark mode on karo" / "Light mode set karo"
+  - "Desktop icons hide karo" / "Show icons"
+  - "Taskbar hide karo" / "Show taskbar"
+  - "Refresh desktop"
+
+----------------------------------------------------------------
+3. FILE EXPLORER & FILE OPERATIONS
+----------------------------------------------------------------
+• Navigation:
+  - "Open D drive" / "C drive kholo"
+  - "Downloads folder kholo" / "Documents open karo"
+  - "Go back" / "Go forward"
+
+• File & Folder Creation:
+  - "Create folder 'Project ARIS'"
+  - "Make new folder here"
+  - "Create folder 'Data' on desktop"
+  - "Create file 'notes.txt'"
+  - "New text file banao"
+  - "Create file 'log' in D drive"
+
+• File Management:
+  - "Rename selected to 'final_report'"
+  - "Delete selected item" (Recycle bin me jayega)
+  - "Copy selected" / "Cut selected" / "Paste here"
+  - "Copy path" (Selected file ka path copy karega)
+  - "Refresh files" (List update karne ke liye)
+
+• Search, View & Selection:
+  - "Search for 'resume'" / "Find 'movie'"
+  - "List files" / "Yahan kya hai?" (Content dikhayega)
+  - "Recent items dikhao"
+  - "Select all" / "Sab select karo"
+  - "Select 'image.png'"
+  - "View large icons" / "View details" / "View list"
+  - "Properties dikhao"
+
+• Advanced Operations:
+  - "Open terminal here" / "CMD yahan kholo"
+  - "Open VS Code here"
+  - "Selected file read karo" (Content padh kar batayega)
+  - "Selected file summarize karo"
+  - "Selected images ko PDF me convert karo" (Images select honi chahiye)
+
+----------------------------------------------------------------
+4. CODING & DEVELOPMENT (Jarvis Coder)
+----------------------------------------------------------------
+• Code Generation:
+  - "Python me calculator banao"
+  - "HTML me tic-tac-toe game banao"
+  - "Write a Java program for factorial"
+  - "Create a website for portfolio"
+
+• Execution & Modification:
+  - "Is code ko run karo" (Python/HTML auto-run)
+  - "Change background color to blue" (Modify code)
+  - "Add a reset button"
+  - "Coding folder open karo" (Jahan code save hota hai)
+
+----------------------------------------------------------------
+5. PRODUCTIVITY & OFFICE
+----------------------------------------------------------------
+• PowerPoint (PPT):
+  - "Create a PPT on Artificial Intelligence"
+  - "Make an advanced presentation on Space Exploration"
+  - "Start slideshow" / "Next slide" / "End slideshow"
+  - "Create new presentation" (Blank)
+
+• WhatsApp Automation:
+  - "Rakesh ko message bhejo 'Main late ho jaunga'"
+  - "Papa ko call karo" (Audio call)
+  - "Rahul ko video call karo"
+  - "Ye file Priya ko bhejo" (Selected file send karega)
+  - "Ye files Rakesh ko bhejo" (Multiple selected files)
+
+• Email Automation:
+  - "Apna introduction email karo" (Self intro send karega)
+  - "Email bhejo: 'Kal meeting 5 baje hai'" (Direct message)
+  - "Send email saying 'Project complete ho gaya hai'"
+  - "Write email about 'Leave Application' saying 'I need leave tomorrow'" (Subject + Message)
+  - "Selected file email karo" / "Ye photo email kar do" (File Explorer selection)
+  - "Send selected files via email"
+
+• Reminders & Alarms:
+  - "Set reminder for 5 PM: Meeting hai"
+  - "Kal subah 8 baje ka reminder lagao"
+  - "Reminder set karo: 10 minute baad pani pina hai"
+  - "Mere reminders batao" / "Aaj kya karna hai?"
+  - "Delete 'meeting' reminder" / "Delete all reminders"
+  - "Stop reminder" / "Chup raho" (Jab reminder baj raha ho)
+  - "Set alarm for 6 AM"
+  - "Timer lagao 10 minute ka"
+
+----------------------------------------------------------------
+6. INTERNET, SEARCH & NEWS
+----------------------------------------------------------------
+• Search & Info:
+  - "Google search 'latest AI trends'"
+  - "Who is Elon Musk?"
+  - "Aaj kya special hai?" (Festivals/Days)
+  - "Open ChatGPT website" / "Open DeepSeek"
+  - "Open website 'github.com'"
+
+• Weather:
+  - "Aaj ka mausam kaisa hai?"
+  - "Gaon ka mausam batao" / "Village weather"
+  - "Delhi weather update"
+
+• Website Reading:
+  - "Scrape this website"
+
+----------------------------------------------------------------
+7. MEDIA & ENTERTAINMENT
+----------------------------------------------------------------
+• YouTube Downloader & Player:
+  - "Download this video" (Browser me open video)
+  - "Kitna download hua?" (Progress check)
+  - "Play last downloaded video"
+  - "Download folder open karo"
+
+• YouTube Analytics (Channel):
+  - "Mera channel analyze karo"
+  - "Channel stats batao"
+  - "Latest video kaisi chal rahi hai"
+  - "Last video ke views batao"
+
+• Music & Playback:
+  - "Play song 'Believer'"
+  - "YouTube par 'Python tutorials' search karo"
+
+----------------------------------------------------------------
+8. AI VISION & IMAGE GENERATION
+----------------------------------------------------------------
+• Screen Vision (Vision Mode):
+  - "Screen par kya dikh raha hai?"
+  - "Ye error kya hai samjhao"
+  - "Is code me kya galti hai?"
+  - "Kaunsa app open hai?"
+  - "Screen summary do"
+  - "Important kya hai screen par?"
+
+• Camera Vision:
+  - "Camera dekho" / "Samne kya hai?"
+  - "Camera on karo" / "Camera off karo"
+
+• Image Generation:
+  - "Generate image of a futuristic city"
+  - "Ek cat ki photo banao"
+
+• Screenshot:
+  - "Screenshot lo" (Full screen)
+  - "Window ka screenshot lo"
+  - "Last screenshot open karo"
+
+----------------------------------------------------------------
+9. UTILITIES & MEMORY
+----------------------------------------------------------------
+• Memory (Yaad Rakhna):
+  - "Yaad rakhna mera naam Rakesh hai"
+  - "Note kar lo mujhe pizza pasand hai"
+  - "Maine kya kaha tha?" (Recall)
+
+• Clipboard & Translation:
+  - "Clipboard read karo"
+  - "Clipboard me ye likh do 'Hello World'"
+  - "Translate 'Hello' to Hindi"
+
+----------------------------------------------------------------
+10. 🌐 SITUATIONAL AWARENESS (JARVIS-STYLE)
+----------------------------------------------------------------
+• Awareness Status:
+  - "Awareness status dikhao"
+  - "System kaisa hai?"
+  - "Kitna RAM bacha hai?"
+  
+• App Usage Report:
+  - "Aaj kitna time kahan spend kiya?"
+  - "App usage batao"
+  - "Kaunsa app zyada use kiya?"
+  
+• Alert Controls:
+  - "Alerts band karo"
+  - "Awareness off karo"
+  - "Alerts on karo"
+
+ARIS Automatically Alerts You For:
+  ⚠️ High CPU/RAM usage (>85%)
+  🔋 Low battery (<20%) + unplugged
+  💾 Low disk space (>90%)
+  🌐 Internet connection lost
+  📱 Extended time on social media (>30 min)
+  💻 Extended coding sessions (>2 hours)
+  🚨 Suspicious high-CPU processes
+
+----------------------------------------------------------------
+11. 🤖 SELF-IMPROVEMENT & LEARNING
+----------------------------------------------------------------
+• Teach ARIS New Rules:
+  - "ARIS, learn this: jab 'shutdown' bolun toh sleep me jana"
+  - "Yaad rakhna mera 'project folder' matlab 'D:\\Projects'"
+  - "Jab main 'browser' bolun toh Brave open karna"
+
+• Check What ARIS Learned:
+  - "Tumne kya kya seekha?"
+  - "What did you learn?"
+  - "Learning list dikhao"
+
+• Manage Learned Rules:
+  - "Ye rule bhool jao" (Remove specific rule)
+  - "Undo last correction" (Remove last learned rule)
+  - "Learning stats batao" (View learning statistics)
+
+ARIS Learns From:
+  ✅ Your corrections: "Nahi, Chrome nahi, Brave open karna tha"
+  ✅ Your preferences: "Mujhe dark pasand hai, light mat karo"
+  ✅ Your patterns: "Jab main 'meeting' bolun toh Calendar check kar"
+  ✅ Your shortcuts: "Mera 'code' matlab VS Code"
+
+===============================================================
+Note: ARIS Hinglish aur English dono samajhta hai.
+Aap natural language me baat kar sakte hain!
+===============================================================
