@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARIS — Your Intelligent Personal AI System</title>
+    <meta name="description"
+        content="ARIS is a next-generation AI assistant for Android and Windows, featuring Voice Intelligence, Gesture Control, and System Automation.">
+
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Particle Background -->
+    <canvas id="particleCanvas"></canvas>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+                <img src="aris.png" alt="ARIS Logo">
+                <span>ARIS</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">What is ARIS</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#capabilities">Capabilities</a></li>
+                <li><a href="#download" class="btn-nav">Download</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="reveal">ARIS — Your
+                    Intelligent <br><span class="highlight">Personal AI System</span></h1>
+                <p class="subtitle reveal">Neural Interface • System Autonomy • Cognitive Layers</p>
+                <div class="hero-btns reveal">
+                    <a href="https://t.me/rakesharis" class="btn btn-primary" target="_blank">Join
+                        Telegram</a>
+                    <a href="#features" class="btn btn-secondary">Explore Features</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- What is Aris (About Section Redesign) -->
+    <section id="about" class="about">
+        <div class="container">
+            <!-- Product Narrative -->
+            <div class="about-header-flex">
+                <div class="about-intro reveal">
+                    <h2 class="section-title-left">About <span class="highlight">ARIS</span></h2>
+                    <p class="premium-text">ARIS is an advanced personal AI system designed to combine voice
+                        intelligence,
+                        automation, and intelligent system control into a unified experience. Built with a focus on
+                        precision, responsiveness, and adaptability, ARIS represents a next-generation approach to
+                        human-AI
+                        interaction.</p>
+                </div>
+                <div class="about-visual reveal">
+                    <div class="scanner-line"></div>
+                    <img src="aris.png" alt="ARIS System Core" class="hero-logo-glow">
+                </div>
+            </div>
+
+            <div class="about-grid">
+                <!-- System Profile Column -->
+                <div class="about-content reveal">
+                    <div class="section-tag"><i class="fa-solid fa-microchip"></i> ENGINEERING_PROFILE</div>
+                    <h3>The ARIS <br><span class="highlight">Core Architecture</span></h3>
+                    <p>Designed for high-stakes system orchestration, serving as the bridge between human intent and
+                        machine execution.</p>
+
+                    <div class="system-specs">
+                        <div class="spec-item">
+                            <span class="spec-label">COGNITIVE_CORE</span>
+                            <span class="spec-value">HYBRID_NEURAL_NET</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">IO_LATENCY</span>
+                            <span class="spec-value">
+                                < 15ms</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">PROTOCOL</span>
+                            <span class="spec-value">QUANTUM_SECURE</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dossier / Creator Column -->
+                <div class="creator-dossier reveal">
+                    <div class="data-stream"></div>
+                    <div class="dossier-header">
+                        <div class="dossier-tag">SYSTEM_ARCHITECT_IDENTITY</div>
+                        <div class="dossier-id">REF_RAKESH.RAJ_001</div>
+                    </div>
+                    <div class="creator-main">
+                        <div class="creator-avatar-wrapper">
+                            <img src="creator.png" alt="Rakesh Rajbhar" class="creator-img-advanced">
+                            <div class="glitch-overlay"></div>
+                        </div>
+                        <div class="creator-meta">
+                            <h3 class="name-glitch" data-text="Rakesh Rajbhar">Rakesh Rajbhar</h3>
+                            <p class="role-tag">Lead AI Architect & Full-Stack Engineer</p>
+
+                            <div class="skill-tags">
+                                <span class="skill-tag">AI_ENGINEERING</span>
+                                <span class="skill-tag">PYTHON_DEVELOPMENT</span>
+                                <span class="skill-tag">FRONTEND_ARCHITECTURE</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dossier-footer">
+                        <div class="corner top-left"></div>
+                        <div class="corner top-right"></div>
+                        <div class="corner bottom-left"></div>
+                        <div class="corner bottom-right"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Dashboard (Categorized) -->
+    <section id="features" class="features-dashboard">
+        <div class="container">
+            <h2 class="section-title reveal">Intelligence Systems & Commands</h2>
+
+            <div class="dashboard-container glass-panel reveal">
+                <!-- Advanced HUD Header -->
+                <div class="dashboard-hud-header">
+
+                    <!-- New Horizontal Neural Ribbon -->
+                    <nav class="neural-ribbon">
+                        <button class="ribbon-item active" data-category="new" title="New Tech">
+                            <i class="fa-solid fa-bolt-lightning"></i>
+                            <span class="ribbon-label">NEW_TECH</span>
+                        </button>
+                        <button class="ribbon-item" data-category="system" title="System Control">
+                            <i class="fa-solid fa-microchip"></i>
+                            <span class="ribbon-label">SYSTEM_CTRL</span>
+                        </button>
+                        <button class="ribbon-item" data-category="desktop" title="Desktop Manager">
+                            <i class="fa-solid fa-desktop"></i>
+                            <span class="ribbon-label">DESKTOP_MGR</span>
+                        </button>
+                        <button class="ribbon-item" data-category="files" title="File Operations">
+                            <i class="fa-solid fa-folder-tree"></i>
+                            <span class="ribbon-label">FILE_OP_OS</span>
+                        </button>
+                        <button class="ribbon-item" data-category="coding" title="Coder Lab">
+                            <i class="fa-solid fa-code"></i>
+                            <span class="ribbon-label">CODER_LAB</span>
+                        </button>
+                        <button class="ribbon-item" data-category="productivity" title="Productivity">
+                            <i class="fa-solid fa-calendar-check"></i>
+                            <span class="ribbon-label">PRODUCTIVITY</span>
+                        </button>
+                        <button class="ribbon-item" data-category="vision" title="AI Vision">
+                            <i class="fa-solid fa-eye"></i>
+                            <span class="ribbon-label">AI_VISION</span>
+                        </button>
+                        <button class="ribbon-item" data-category="awareness" title="World Awareness">
+                            <i class="fa-solid fa-earth-americas"></i>
+                            <span class="ribbon-label">AWARENESS</span>
+                        </button>
+                    </nav>
+
+                </div>
+
+                <div class="dashboard-main-full">
+                    <!-- Features Content Area -->
+                    <main class="dashboard-content">
+                        <!-- Module Status Bar -->
+                        <div class="module-info-bar">
+                            <div id="terminalLog" class="mini-hud-log">> SYSTEM_BOOT... OK</div>
+                        </div>
+                        <!-- New Features -->
+                        <div class="category-panel active" id="category-new">
+                            <div class="panel-header">
+                                <h3>Neural Breakthroughs</h3>
+                                <p>Latest architectural innovations in the ARIS Core.</p>
+                            </div>
+                            <div class="command-grid">
+                                <div class="cmd-item">
+                                    <span class="cmd-tag"><i class="fa-solid fa-brain"></i> COGNITIVE_LEARNING</span>
+                                    <p>Self-Improvement Engine & Situational Awareness: ARIS learns from your
+                                        corrections and tracks system context JARVIS-style.</p>
+                                </div>
+                                <div class="cmd-item">
+                                    <span class="cmd-tag"><i class="fa-solid fa-microchip"></i> AUTOMATION_X</span>
+                                    <p>Advanced File Management & PDF Robotics: Batch image-to-PDF conversion and
+                                        autonomous file system orchestration.</p>
+                                </div>
+                                <div class="cmd-item">
+                                    <span class="cmd-tag"><i class="fa-brands fa-youtube"></i> MEDIA_LABS</span>
+                                    <p>YouTube Intelligence: Real-time channel analytics, video performance tracking,
+                                        and automated downloader hooks.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- System Control -->
+                        <div class="category-panel" id="category-system">
+                            <div class="panel-header">
+                                <h3>OS Orchestration</h3>
+                                <p>Low-level hardware management and system health protocols.</p>
+                            </div>
+                            <div class="command-grid">
+                                <div class="cmd-item">
+                                    <span class="cmd-tag"><i class="fa-solid fa-power-off"></i> POWER_PROTOCOLS</span>
+                                    <p>Remote Shutdown, Restart, Sleep, and Lock commands. Includes secondary "Cancel"
+                                        safety overrides.</p>
+                                </div>
+                                <div class="cmd-item">
+                                    <span class="cmd-tag"><i class="fa-solid fa-gauge-high"></i> VITAL_SIGNS</span>
+                                    <p>Health Audit: CPU, RAM, Battery, IP tracking, and Uptime analysis. Kill specific
+                                        processes via neural intent.</p>
+                                </div>
+                                <div class="cmd-item">
+                                    <span class="cmd-tag"><i class="fa-solid fa-screwdriver-wrench"></i>
+                                        MAINTENANCE_LOG</span>
+                                    <p>Recycle Bin purging, Temp file cleanup, Internet Speed diagnostics, and System
+                                        Settings access.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Desktop Management -->
+                        <div class="category-panel" id="category-desktop">
+                            <div class="panel-header">
+                                <h3>Workspace Orchestration</h3>
+                                <p>Intelligent window control and desktop environment personalization.</p>
+                            </div>
+                            <div class="command-grid">
+                                <div class="cmd-item">
+                                    <span class="cmd-tag"><i class="fa-solid fa-window-maximize"></i>
+                                        APP_ORCHESTRATION</span>
+                                    <p>App Launching (Chrome, Notepad, VS Code) and Window Control: Switch, Close, Save,
+                                        and Focus management.</p>
+                                </div>
+                                <div class="cmd-item">
+                                    <span class="cmd-tag"><i class="fa-solid fa-globe"></i> BROWSER_LINKS</span>
+                                    <p>Tab Robotics: Close current or specific tabs (YouTube, WhatsApp). Seamless
+                                        browser stack management.</p>
+                                </div>
+                                <div class="cmd-item">
+                                    <span class="cmd-tag"><i class="fa-solid fa-palette"></i> UI_PERSONALIZATION</span>
+                                    <p>Visual Engine: Change Wallpapers, Dark/Light Mode toggle, Taskbar/Icons
+                                        Hide-Show, and Desktop Refresh.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- File Operations -->
+                        <div class="category-panel" id="category-files">
+                            <div class="panel-header">
+                                <h3>File System Intelligence</h3>
+                                <p>Deep directory navigation and automated asset management.</p>
+                            </div>
+                            <div class="command-grid">
+                                <div class="cmd-item">
+                                    <span class="cmd-tag"><i class="fa-solid fa-compass"></i> FS_DISCOVERY</span>
+                                    <p>Drive Access (C/D), Folder Shortcuts (Downloads/Docs), and Neural Search: Find
+                                        files instantly across the system.</p>
+                                </div>
+                                <div class="cmd-item">
+                                    <span class="cmd-tag"><i class="fa-solid fa-folder-plus"></i>
+                                        ARCHITECTURAL_GEN</span>
+                                    <p>Creation Engine: Generate Folders and Files (Text/Log/Doc) anywhere. Advanced
+                                        directory structuring via voice.</p>
+                                </div>
+                                <div class="cmd-item">
+                                    <span class="cmd-tag"><i class="fa-solid fa-file-signature"></i>
+                                        ASSET_MANIPULATION</span>
+                                    <p>Rename, Copy-Paste, Path copying, File Summarization, and batch Conversion to PDF
+                                        robotics.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Coding Lab -->
+                        <div class="category-panel" id="category-coding">
+                            <div class="panel-header">
+                                <h3>Neural Coder Lab</h3>
+                                <p>Logic synthesis and real-time code execution environment.</p>
+                            </div>
+                            <div class="command-grid">
+                                <div class="cmd-item">
+                                    <span class="cmd-tag"><i class="fa-solid fa-code"></i> LOGIC_SYNTHESIS</span>
+                                    <p>AI Generation: Build Python Apps, HTML Games, Java Programs, and complete
+                                        Portfolio Websites in seconds.</p>
+                                </div>
+                                <div class="cmd-item">
+                                    <span class="cmd-tag"><i class="fa-solid fa-terminal"></i> EXECUTION_KERNEL</span>
+                                    <p>Runtime Control: Run Python/HTML code instantly. Direct Terminal/CMD tunneling
+                                        and Folder Management.</p>
+                                </div>
+                                <div class="cmd-item">
+                                    <span class="cmd-tag"><i class="fa-solid fa-wand-magic-sparkles"></i>
+                                        REFINEMENT_ENGINE</span>
+                                    <p>Live Modification: Change CSS colors, add buttons, and iterate on existing logic
+                                        via natural language commands.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Productivity -->
+                        <div class="category-panel" id="category-productivity">
+                            <div class="panel-header">
+                                <h3>Executive Automation</h3>
+                                <p>High-level communication and task orchestration workflows.</p>
+                            </div>
+                            <div class="command-grid">
+                                <div class="cmd-item">
+                                    <span class="cmd-tag"><i class="fa-solid fa-file-powerpoint"></i>
+                                        PPT_ROBOTICS</span>
+                                    <p>Presentation Engine: Create PPTs on AI/Space, manage Slideshows (Start, Next,
+                                        End), and generate blank templates.</p>
+                                </div>
+                                <div class="cmd-item">
+                                    <span class="cmd-tag"><i class="fa-brands fa-whatsapp"></i> SOCIAL_CONNECT</span>
+                                    <p>WhatsApp Automation: Message Rakesh/Papa/Priya, initiate Voice/Video calls, and
+                                        send selected files wirelessly.</p>
+                                </div>
+                                <div class="cmd-item">
+                                    <span class="cmd-tag"><i class="fa-solid fa-stopwatch"></i> CHRONOS_ENGINE</span>
+                                    <p>Time Control: Set Reminders, Alarms, and Timers. Manage schedules and meeting
+                                        alerts with voice overrides.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- AI Vision -->
+                        <div class="category-panel" id="category-vision">
+                            <div class="panel-header">
+                                <h3>Visual Intelligence</h3>
+                                <p>Cortex screen analysis and optical environment processing.</p>
+                            </div>
+                            <div class="command-grid">
+                                <div class="cmd-item">
+                                    <span class="cmd-tag"><i class="fa-solid fa-expand"></i> CORTEX_SCAN</span>
+                                    <p>Screen Analysis: Explain errors, detect open apps, summarize content, and debug
+                                        code from visual context.</p>
+                                </div>
+                                <div class="cmd-item">
+                                    <span class="cmd-tag"><i class="fa-solid fa-camera"></i> OPTIC_HARDWARE</span>
+                                    <p>Camera Vision: Real-time webcam analysis ("Samne kya hai?"), hardware toggles,
+                                        and high-precision screenshot capture.</p>
+                                </div>
+                                <div class="cmd-item">
+                                    <span class="cmd-tag"><i class="fa-solid fa-image"></i> IMAGERY_GEN</span>
+                                    <p>Generative Synthesis: Create AI images from text prompts (futuristic cities,
+                                        characters) for rapid visual asset creation.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Situational Awareness -->
+                        <div class="category-panel" id="category-awareness">
+                            <div class="panel-header">
+                                <h3>World & System Intel</h3>
+                                <p>Proactive environmental scanning and intelligent system watchdog.</p>
+                            </div>
+                            <div class="command-grid">
+                                <div class="cmd-item">
+                                    <span class="cmd-tag"><i class="fa-solid fa-earth-americas"></i> ENV_SCANNING</span>
+                                    <p>Global Intelligence: Google Search, Weather updates, News tracking, and YouTube
+                                        search hooks via natural language.</p>
+                                </div>
+                                <div class="cmd-item">
+                                    <span class="cmd-tag"><i class="fa-solid fa-shield-halved"></i>
+                                        SYSTEM_WATCHDOG</span>
+                                    <p>Proactive Alerts: Automated triggers for High CPU/RAM, Low Battery, Disk space,
+                                        and Internet connection status.</p>
+                                </div>
+                                <div class="cmd-item">
+                                    <span class="cmd-tag"><i class="fa-solid fa-brain"></i> COGNITIVE_MEMORY</span>
+                                    <p>Memory Engine: Recall previous commands, track app usage reports, clipboard
+                                        management, and multi-language translation.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </main>
+                </div>
+            </div>
+    </section>
+
+    <!-- Advanced Capabilities -->
+    <section id="capabilities" class="capabilities">
+        <div class="container">
+            <h2 class="section-title reveal">Advanced Architecture</h2>
+            <div class="capabilities-list-advanced">
+                <div class="capability-item reveal">
+                    <h3>Context Awareness</h3>
+                    <p>Real-time environment tracking and system health monitoring for proactive alerts.</p>
+                </div>
+                <div class="capability-item reveal">
+                    <h3>Task Orchestration</h3>
+                    <p>Seamless execution of multi-step automations across disparate software layers.</p>
+                </div>
+                <div class="capability-item reveal">
+                    <h3>Hybrid AI Processing</h3>
+                    <p>Merging local hardware efficiency with high-level cloud-based intelligence models.</p>
+                </div>
+                <div class="capability-item reveal">
+                    <h3>Local + AI Intelligence</h3>
+                    <p>Ensuring privacy and speed by prioritizing local execution for core system tasks.</p>
+                </div>
+                <div class="capability-item reveal">
+                    <h3>Security & Privacy Control</h3>
+                    <p>Bank-grade encryption and siloed memory systems for absolute data sovereignty.</p>
+                </div>
+                <div class="capability-item reveal">
+                    <h3>Adaptive Learning System</h3>
+                    <p>Continuous self-improvement engine that refines its logic through every interaction.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Deployment Center (Download Section) -->
+    <section id="download" class="download">
+        <div class="container">
+            <div class="deployment-header reveal">
+                <div class="section-tag"><i class="fa-solid fa-cloud-arrow-down"></i> SYSTEM_DEPLOYMENT</div>
+                <h2 class="section-title-left">Access the <span class="highlight">Intelligence</span></h2>
+                <p class="premium-text">Deploy ARIS across your secure nodes. Select your target architecture for
+                    immediate initialization.</p>
+            </div>
+
+            <div class="deployment-grid reveal">
+                <!-- Windows Card -->
+                <div class="deployment-card glass-panel">
+                    <div class="card-hud">
+                        <span class="hud-id">NODE_01</span>
+                        <span class="hud-status active">STABLE</span>
+                    </div>
+                    <div class="card-content">
+                        <i class="fa-brands fa-windows platform-icon"></i>
+                        <h3>ARIS for Windows</h3>
+                        <p class="version-tag">VER: 2.4.9_LATEST</p>
+                        <div class="req-list">
+                            <span><i class="fa-solid fa-check"></i> Win 10/11</span>
+                            <span><i class="fa-solid fa-check"></i> 4GB+ RAM</span>
+                        </div>
+                    </div>
+                    <a href="https://t.me/rakesharis" target="_blank" class="download-trigger">
+                        <span>INITIALIZE_SETUP</span>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </a>
+                </div>
+
+                <!-- Android Card -->
+                <div class="deployment-card glass-panel locked">
+                    <div class="card-hud">
+                        <span class="hud-id">NODE_02</span>
+                        <span class="hud-status warning">COMING_SOON</span>
+                    </div>
+                    <div class="card-content">
+                        <i class="fa-brands fa-android platform-icon dimmed"></i>
+                        <h3>ARIS for Android</h3>
+                        <p class="version-tag">VER: ENCRYPTED_ALPHA</p>
+                        <div class="req-list">
+                            <span><i class="fa-solid fa-lock"></i> Architecture: ARM64</span>
+                            <span><i class="fa-solid fa-lock"></i> Release: Pending</span>
+                        </div>
+                    </div>
+                    <div class="download-trigger disabled">
+                        <span>ACCESS_RESTRICTED</span>
+                        <i class="fa-solid fa-lock"></i>
+                    </div>
+                </div>
+
+                <!-- Central Community / Support -->
+                <div class="deployment-card main-cta glass-panel highlight-border">
+                    <div class="card-hud">
+                        <span class="hud-id">NODE_CORE</span>
+                        <span class="hud-status pulsing">JOINED</span>
+                    </div>
+                    <div class="card-content">
+                        <i class="fa-solid fa-users-viewfinder platform-icon"></i>
+                        <h3>Intelligence Hub</h3>
+                        <p>Join 2.5k+ operators in the official ARIS neural network for real-time updates and support.
+                        </p>
+                    </div>
+                    <a href="https://t.me/rakesharis" target="_blank" class="btn btn-primary btn-full">
+                        <i class="fa-brands fa-telegram"></i> JOIN TELEGRAM NETWORK
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Brand Profile -->
+                <div class="footer-col brand-col">
+                    <div class="footer-logo">
+                        <img src="aris.png" alt="ARIS">
+                        <span>ARIS</span>
+                    </div>
+                    <p class="brand-desc">Next-generation AI architecture for universal system control and autonomous
+                        orchestration.</p>
+                    <div class="status-indicator">
+                        <span class="status-dot pulsing"></span> SYSTEM_ONLINE: v2.4.9
+                    </div>
+                </div>
+
+                <!-- Navigation -->
+                <div class="footer-col links-col">
+                    <h4>Directives</h4>
+                    <ul>
+                        <li><a href="#about">About AI</a></li>
+                        <li><a href="#features">Command Lab</a></li>
+                        <li><a href="#capabilities">Architecture</a></li>
+                        <li><a href="#download">Deployment</a></li>
+                    </ul>
+                </div>
+
+                <!-- Engineering Labs -->
+                <div class="footer-col links-col">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="https://t.me/rakesharis" target="_blank">Telegram Hub</a></li>
+                        <li><a href="#">Security Audit</a></li>
+                        <li><a href="#">Neural Docs</a></li>
+                        <li><a href="#">API Access</a></li>
+                    </ul>
+                </div>
+
+                <!-- Social Network -->
+                <div class="footer-col social-col">
+                    <h4>Connect</h4>
+                    <p>Join the intelligence network across platforms.</p>
+                    <div class="social-links-grid">
+                        <a href="https://t.me/rakesharis" class="social-btn tg" target="_blank" title="Telegram">
+                            <i class="fa-brands fa-telegram"></i>
+                            <span class="social-label">Telegram</span>
+                        </a>
+                        <a href="https://github.com/rajbharrakesh1435-eng" class="social-btn gh" target="_blank"
+                            title="GitHub">
+                            <i class="fa-brands fa-github"></i>
+                            <span class="social-label">GitHub</span>
+                        </a>
+                        <a href="https://youtube.com/@codewithanime143-w9w?si=zZEFaGOqbjebCiMr" class="social-btn yt"
+                            target="_blank" title="YouTube">
+                            <i class="fa-brands fa-youtube"></i>
+                            <span class="social-label">YouTube</span>
+                        </a>
+                        <a href="https://www.instagram.com/aris_ai_143/" class="social-btn ig" target="_blank"
+                            title="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                            <span class="social-label">Instagram</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="copyright">
+                    &copy; 2026 ARIS AI Systems. Built by <span class="highlight">Rakesh Rajbhar</span>.
+                </div>
+                <div class="tech-specs-footer">
+                    <span>latency: 12ms</span>
+                    <span class="separator">|</span>
+                    <span>uptime: 99.9%</span>
+                    <span class="separator">|</span>
+                    <span>nodes: active</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
